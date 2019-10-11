@@ -1,0 +1,33 @@
+.nav-container {
+  display: flex;
+  position: fixed;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 20%;
+  margin: 10px;
+  color: black;
+}
+
+.add-button:hover {
+  cursor: pointer;
+}
+
+.nav-list {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 4%;
+}
+
+.nav-list a {
+  font-family: 'Mansalva', cursive;
+  font-size: 20px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a:visited{
+  color: black;
+}

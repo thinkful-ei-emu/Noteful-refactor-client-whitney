@@ -1,0 +1,31 @@
+.note-list{
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 10px;
+}
+
+.note-list a{
+  text-decoration: none;
+}
+
+.note-list li{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.note-list li h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+}
+
+.note-list li p {
+  font-family: 'Mansalva', cursive
+}
+
+li a:link {
+  color: black;
+}
