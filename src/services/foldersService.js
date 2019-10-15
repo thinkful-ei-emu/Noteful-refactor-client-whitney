@@ -47,8 +47,8 @@ const FoldersService = {
     })
     .then(res =>
       (!res.ok)
-      ? res.json().then(e => Promise.reject(e))
-      : res.json()
+      ? (e => Promise.reject(e))
+      : ''
     )
   },
   // UPDATE FOLDER BY ID
@@ -62,8 +62,8 @@ const FoldersService = {
     })
     .then(res =>
       (!res.ok)
-      ? res.json().then(e => Promise.reject(e))
-      : res.json()
+      ? (e => Promise.reject(e))
+      : ''
     )
   }
 }

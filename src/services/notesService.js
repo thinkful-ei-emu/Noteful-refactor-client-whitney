@@ -46,8 +46,8 @@ const NotesService = {
     })
     .then(res =>
       (!res.ok)
-      ? res.json().then(e => Promise.reject(e))
-      : res.json()
+      ? (e => Promise.reject(e))
+      : ''
     )
   },
   // UPDATE NOTE BY ID
@@ -61,8 +61,8 @@ const NotesService = {
     })
     .then(res =>
       (!res.ok)
-      ? res.json().then(e => Promise.reject(e))
-      : res.json()
+      ? (e => Promise.reject(e))
+      : ''
     )
   }
 }
